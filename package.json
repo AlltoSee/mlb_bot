@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@prisma/client": "^4.3.1",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.20",
+    "telegraf": "^4.9.2"
+  },
+  "devDependencies": {
+    "prisma": "^4.3.1"
+  },
+  "name": "mlb_bot",
+  "description": "Телеграм бот для mlb",
+  "version": "0.0.1",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlltoSee/mlb_bot.git"
+  },
+  "author": "GSMCOM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlltoSee/mlb_bot/issues"
+  },
+  "homepage": "https://github.com/AlltoSee/mlb_bot#readme"
+}
